@@ -20,4 +20,4 @@ Point Firebase Hosting (or any static host) at `public/`. See `firebase.json`.
 
 ## Contact
 
-support@floot.app · themaker@gspteck.com
+themaker@gspteck.com
