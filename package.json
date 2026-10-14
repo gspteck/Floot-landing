@@ -1,0 +1,31 @@
+{
+  "name": "floot-landing",
+  "version": "1.0.0",
+  "description": "Floot — verified RL environments for Dart and Flutter. Landing site by GSPTeck.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Floot",
+    "RL",
+    "Dart",
+    "Flutter",
+    "GSPTeck"
+  ],
+  "author": "GSPTeck",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gspteck/Floot-landing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gspteck/Floot-landing/issues"
+  },
+  "homepage": "https://github.com/gspteck/Floot-landing#readme"
+}
