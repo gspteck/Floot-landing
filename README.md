@@ -1,8 +1,10 @@
 # Floot landing
 
-Marketing site for **Floot** — verified reinforcement-learning environments for Dart and Flutter (by [GSPTeck](https://gspteck.com/)).
+Marketing site for **Floot** — verified reinforcement-learning environments (by [GSPTeck](https://gspteck.com/)).
 
-Same layout pattern as other GSPTeck sites (`public/`, Express `app.js`, optional Firebase Hosting).
+English only. Client-facing copy does not name specific languages or frameworks.
+
+Project layout: `public/`, Express `app.js`, optional Firebase Hosting.
 
 ## Local
 

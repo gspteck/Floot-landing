@@ -4,44 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Floot | Verified RL environments for Dart &amp; Flutter</title>
+    <title>Floot | Verified environments for reinforcement learning</title>
     <meta
       name="description"
-      content="Floot writes trustworthy reinforcement-learning environments for Dart and Flutter: tasks plus verifiers labs can re-run. Pre-sold private packs. By GSPTeck."
-    />
-    <meta
-      name="keywords"
-      content="Floot, RL environments, Dart, Flutter, verifiers, AI training, GSPTeck"
+      content="Floot builds trustworthy RL training and evaluation environments: tasks plus verifiers labs can re-run. Pre-sold private packs. By GSPTeck."
     />
     <meta name="author" content="GSPTeck" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
-    <meta name="theme-color" content="#0c1929" />
+    <meta name="theme-color" content="#101820" />
     <link rel="canonical" href="https://floot.app/" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Floot" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="it_IT" />
     <meta property="og:url" content="https://floot.app/" />
     <meta
       property="og:title"
-      content="Floot | Verified RL environments for Dart &amp; Flutter"
+      content="Floot | Verified environments for reinforcement learning"
     />
     <meta
       property="og:description"
-      content="Tasks and verifiers AI labs can trust: deterministic, hard to game, reproducible. Private Dart packs and bespoke authoring."
+      content="Tasks and verifiers AI labs can trust: deterministic, hard to game, reproducible. Private packs and bespoke authoring."
     />
     <meta property="og:image" content="https://floot.app/assets/logo.svg" />
-    <meta property="og:image:alt" content="Floot logo" />
 
     <meta name="twitter:card" content="summary" />
     <meta
       name="twitter:title"
-      content="Floot | Verified RL environments for Dart &amp; Flutter"
+      content="Floot | Verified environments for reinforcement learning"
     />
     <meta
       name="twitter:description"
-      content="Trustworthy RL environments for Dart and Flutter. Pre-sold private packs. By GSPTeck."
+      content="Trustworthy RL environments. Pre-sold private packs. By GSPTeck."
     />
     <meta name="twitter:image" content="https://floot.app/assets/logo.svg" />
 
@@ -51,7 +45,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Figtree:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./stylesheets/style.css" />
@@ -72,7 +66,7 @@
               "url": "https://gspteck.com/"
             },
             "email": "support@floot.app",
-            "description": "Verified reinforcement-learning environments for Dart, Flutter, and mobile agents."
+            "description": "Verified reinforcement-learning environments for AI labs and data foundries."
           },
           {
             "@type": "WebSite",
@@ -80,213 +74,152 @@
             "url": "https://floot.app/",
             "name": "Floot",
             "publisher": { "@id": "https://floot.app/#organization" },
-            "inLanguage": ["en", "it"]
-          },
-          {
-            "@type": "Product",
-            "name": "Floot Dart Pack v1",
-            "description": "Fixed-scope pilot of private verified Dart RL tasks with grader image and determinism / hack-resistance report.",
-            "brand": { "@type": "Brand", "name": "Floot" },
-            "offers": {
-              "@type": "Offer",
-              "price": "12000",
-              "priceCurrency": "USD",
-              "availability": "https://schema.org/PreOrder",
-              "url": "https://floot.app/#contact"
-            }
+            "inLanguage": "en"
           }
         ]
       }
     </script>
   </head>
   <body>
-    <div class="container">
-      <nav class="site-nav" aria-label="Primary">
-        <a class="nav-brand" href="/">
-          <img src="./assets/logo.svg" width="48" height="48" alt="" />
-          <span>Floot</span>
-        </a>
-        <ul class="nav-links">
-          <li><a href="#product" data-i18n="nav.product">Product</a></li>
-          <li><a href="#how" data-i18n="nav.how">How it works</a></li>
-          <li><a href="#offer" data-i18n="nav.offer">Pilot</a></li>
-          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
-        </ul>
-        <div class="nav-actions">
-          <div class="lang-switch" role="group" aria-label="Language">
-            <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">
-              EN
-            </button>
-            <button type="button" class="lang-btn" data-lang="it" aria-pressed="false">
-              IT
-            </button>
-          </div>
-          <a class="btn btn-sm" href="#contact" data-i18n="nav.cta">Request a pilot</a>
-        </div>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="/">
+        <img src="./assets/logo.svg" width="36" height="36" alt="" />
+        <span>Floot</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#product">Product</a>
+        <a href="#pilot">Pilot</a>
+        <a href="#contact">Contact</a>
       </nav>
+    </header>
 
-      <header class="hero" id="top">
-        <div class="hero-visual" aria-hidden="true">
-          <svg viewBox="0 0 420 280" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect x="24" y="28" width="280" height="180" rx="16" stroke="rgba(244,248,250,0.35)" stroke-width="2"/>
-            <path d="M48 72h180M48 96h140M48 120h200M48 144h120" stroke="rgba(244,248,250,0.45)" stroke-width="3" stroke-linecap="round"/>
-            <rect x="200" y="160" width="176" height="88" rx="12" fill="rgba(47,143,130,0.85)"/>
-            <text x="220" y="198" fill="#f4f8fa" font-family="ui-monospace, monospace" font-size="14">canonDigest</text>
-            <text x="220" y="222" fill="rgba(244,248,250,0.75)" font-family="ui-monospace, monospace" font-size="11">sha256 · equal</text>
-          </svg>
+    <section class="hero">
+      <div class="hero-plane" aria-hidden="true">
+        <svg class="hero-art" viewBox="0 0 960 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#1c6b5f" stop-opacity="0.35" />
+              <stop offset="100%" stop-color="#101820" stop-opacity="0.05" />
+            </linearGradient>
+          </defs>
+          <rect width="960" height="640" fill="url(#g)" />
+          <g stroke="#101820" stroke-opacity="0.12" stroke-width="1">
+            <path d="M0 80H960M0 160H960M0 240H960M0 320H960M0 400H960M0 480H960M0 560H960" />
+            <path d="M80 0V640M160 0V640M240 0V640M320 0V640M400 0V640M480 0V640M560 0V640M640 0V640M720 0V640M800 0V640M880 0V640" />
+          </g>
+          <rect x="520" y="120" width="360" height="220" rx="8" fill="#101820" fill-opacity="0.88" />
+          <text x="548" y="178" fill="#e8f2ef" font-family="ui-monospace, monospace" font-size="18">canonDigest</text>
+          <text x="548" y="214" fill="#7eb8ad" font-family="ui-monospace, monospace" font-size="14">sha256 · host A = host B</text>
+          <text x="548" y="258" fill="#c5d4cf" font-family="ui-monospace, monospace" font-size="13">mutants killed · 0 masked</text>
+          <text x="548" y="290" fill="#c5d4cf" font-family="ui-monospace, monospace" font-size="13">hostile corpus · score 0</text>
+        </svg>
+      </div>
+
+      <div class="hero-inner">
+        <p class="eyebrow">by GSPTeck</p>
+        <h1>Floot</h1>
+        <p class="lede">Verified environments for reinforcement learning.</p>
+        <p class="sub">
+          Tasks and verifiers labs can trust — same score every run, hard to game,
+          reproducible by a third party.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="#contact">Request a pilot</a>
+          <a class="btn btn-ghost" href="#product">See the product</a>
         </div>
-        <div class="hero-copy">
-          <p class="brand-tag" data-i18n="hero.by">by GSPTeck · floot.app</p>
-          <h1>Floot</h1>
-          <p class="hero-tagline" data-i18n="hero.tagline">
-            Verified RL environments for Dart and Flutter.
+      </div>
+    </section>
+
+    <main>
+      <section class="band" id="product">
+        <div class="band-inner">
+          <h2>What we sell</h2>
+          <p class="band-lead">
+            The scarce input for agent training is not raw compute. It is a
+            trustworthy test suite.
           </p>
-          <p class="hero-line" data-i18n="hero.lead">
-            Tasks plus verifiers that labs can trust — same score every time,
-            hard to game, reproducible by a third party.
-          </p>
-          <div class="priority-bar">
-            <a class="btn" href="#contact" data-i18n="hero.cta">Request a pilot</a>
-            <a class="btn btn-secondary" href="#product" data-i18n="hero.secondary">
-              What we sell
-            </a>
+
+          <div class="rows">
+            <article>
+              <h3>Private verified packs</h3>
+              <p>
+                Fixed-scope suites with hidden tests, reference solutions,
+                deliberate wrong answers, and measured solve rates — delivered as
+                a private grading package and image.
+              </p>
+            </article>
+            <article>
+              <h3>Numbers you can re-run</h3>
+              <p>
+                Published determinism and hack-resistance figures. A free public
+                environment is the sales asset; private packs are the product.
+              </p>
+            </article>
+            <article>
+              <h3>Bespoke authoring</h3>
+              <p>
+                Scope with us first. Pilots are agreed by letter of intent or
+                deposit before tasks are written, so the work matches what you buy.
+              </p>
+            </article>
           </div>
         </div>
-      </header>
+      </section>
 
-      <main>
-        <section class="section" id="product" aria-labelledby="product-heading">
-          <h2 id="product-heading" class="section-title" data-i18n="product.title">
-            What Floot sells
-          </h2>
-          <p class="section-lead" data-i18n="product.lead">
-            Not phone compute. Not GPU hours. The scarce input for coding-agent
-            RL is a trustworthy test suite.
-          </p>
-          <ul class="feature-list">
-            <li>
-              <h3 data-i18n="product.f1t">Private verified task packs</h3>
-              <p data-i18n="product.f1d">
-                Fixed-scope Dart (and later Flutter / mobile-agent) suites with
-                hidden tests, references, mutants, and measured solve rates —
-                delivered as a private verifiers package plus grader image.
-              </p>
-            </li>
-            <li>
-              <h3 data-i18n="product.f2t">Numbers anyone can re-run</h3>
-              <p data-i18n="product.f2d">
-                Determinism (canonical digest agreement) and hack-resistance
-                (mutant kill rate, hostile corpus). The public Hub environment
-                is the sales asset; private packs are the product.
-              </p>
-            </li>
-            <li>
-              <h3 data-i18n="product.f3t">Bespoke authoring</h3>
-              <p data-i18n="product.f3d">
-                At scoping, buyers can redirect task families. Pilots are
-                pre-sold by LOI or deposit before tasks are written.
-              </p>
-            </li>
-          </ul>
-        </section>
-
-        <section class="section" id="how" aria-labelledby="how-heading">
-          <h2 id="how-heading" class="section-title" data-i18n="how.title">
-            How a pilot works
-          </h2>
-          <p class="section-lead" data-i18n="how.lead">
-            One clear path from conversation to accepted delivery.
-          </p>
-          <div class="split">
-            <ol class="pipeline">
-              <li>
-                <span class="step-num">1</span>
-                <span data-i18n="how.s1">Discovery call — fit, format, price</span>
-              </li>
-              <li>
-                <span class="step-num">2</span>
-                <span data-i18n="how.s2">Pilot proposal + LOI or deposit</span>
-              </li>
-              <li>
-                <span class="step-num">3</span>
-                <span data-i18n="how.s3">Author tasks, mutants, hidden tests</span>
-              </li>
-              <li>
-                <span class="step-num">4</span>
-                <span data-i18n="how.s4">Deliver package + grader; you re-run the bench</span>
-              </li>
+      <section class="band band-alt" id="pilot">
+        <div class="band-inner pilot-grid">
+          <div>
+            <h2>Default pilot</h2>
+            <p class="band-lead">
+              A starting offer. Discovery can reshape it — size, domain, or
+              delivery — before any authoring begins.
+            </p>
+            <ol class="steps">
+              <li>Discovery call on fit and format</li>
+              <li>Proposal, then LOI or deposit</li>
+              <li>We author and calibrate the suite</li>
+              <li>You accept by re-running our benchmark</li>
             </ol>
-            <div>
-              <p class="section-lead" style="margin-bottom: 0" data-i18n="how.note">
-                Website first. Client apps ship as Android, Windows, and iOS
-                installer downloads — not via app stores.
-              </p>
-            </div>
           </div>
-        </section>
-
-        <section class="section" id="offer" aria-labelledby="offer-heading">
-          <h2 id="offer-heading" class="section-title" data-i18n="offer.title">
-            Default pilot offer
-          </h2>
-          <p class="section-lead" data-i18n="offer.lead">
-            The starting proposal. Discovery can replace it with bespoke
-            authoring or a mobile pack.
-          </p>
-          <div class="offer-panel">
-            <p class="eyebrow" data-i18n="offer.eyebrow">Floot Dart Pack v1</p>
-            <h3 data-i18n="offer.name">40 private Dart tasks</h3>
-            <p class="offer-price">
-              $12,000 <span data-i18n="offer.priceNote">fixed · ~$300 / task</span>
-            </p>
+          <aside class="quote-panel">
+            <p class="quote-kicker">Floot Pack v1</p>
+            <p class="quote-title">40 private tasks</p>
+            <p class="quote-price">$12,000 <span>fixed</span></p>
             <ul>
-              <li data-i18n="offer.b1">Hidden tests, references, and deliberate mutants</li>
-              <li data-i18n="offer.b2">Private verifiers package + grader image</li>
-              <li data-i18n="offer.b3">Determinism and hack-resistance report</li>
-              <li data-i18n="offer.b4">Acceptance: you re-run the published benchmark numbers</li>
+              <li>Hidden tests, references, mutants</li>
+              <li>Private grader delivery</li>
+              <li>Determinism &amp; hack-resistance report</li>
             </ul>
-            <a class="btn" href="#contact" data-i18n="offer.cta">Talk about a pilot</a>
-          </div>
-        </section>
+            <a class="btn btn-dark" href="#contact">Discuss this pack</a>
+          </aside>
+        </div>
+      </section>
 
-        <section class="section" id="contact" aria-labelledby="contact-heading">
-          <h2 id="contact-heading" class="section-title" data-i18n="contact.title">
-            Contact
-          </h2>
-          <p class="section-lead" data-i18n="contact.lead">
-            No self-serve checkout on this site. Tell us who you are and what
-            you need graded — we reply with next steps.
+      <section class="band" id="contact">
+        <div class="band-inner contact-inner">
+          <h2>Contact</h2>
+          <p class="band-lead">
+            No checkout on this site. Send who you are and what you need graded —
+            we reply with next steps.
           </p>
-          <div class="contact-box">
-            <p>
-              <span data-i18n="contact.emailLabel">Email</span>
-              <a id="contact-email" href="mailto:support@floot.app">support@floot.app</a>
-              ·
-              <span data-i18n="contact.studioLabel">parent studio</span>
-              <a href="https://gspteck.com/" rel="noopener noreferrer">GSPTeck</a>
-            </p>
-            <p data-i18n="contact.hint">
-              Include company, use case (pack / bespoke / mobile), and preferred
-              timeline.
-            </p>
-            <a class="btn btn-secondary" id="contact-mail-btn" href="mailto:support@floot.app?subject=Floot%20pilot%20inquiry">
-              <span data-i18n="contact.cta">Open email</span>
-            </a>
-          </div>
-        </section>
-      </main>
+          <a class="mail-link" href="mailto:support@floot.app?subject=Floot%20pilot%20inquiry">
+            support@floot.app
+          </a>
+          <p class="fine">
+            Include company, use case, and timeline.
+            Parent studio:
+            <a href="https://gspteck.com/" rel="noopener noreferrer">GSPTeck</a>
+          </p>
+        </div>
+      </section>
+    </main>
 
-      <footer class="site-footer">
-        <p>
-          <span data-i18n="footer.copy">© Floot by GSPTeck</span>
-        </p>
-        <p>
-          <a href="https://gspteck.com/" rel="noopener noreferrer">gspteck.com</a>
-          ·
-          <a href="mailto:support@floot.app">support@floot.app</a>
-        </p>
-      </footer>
-    </div>
+    <footer class="site-footer">
+      <span>© Floot by GSPTeck</span>
+      <a href="https://gspteck.com/" rel="noopener noreferrer">gspteck.com</a>
+    </footer>
 
     <script src="./scripts/main.js" defer></script>
   </body>
